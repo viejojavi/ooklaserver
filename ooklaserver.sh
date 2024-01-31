@@ -31,4 +31,12 @@ systemctl daemon-reload
 systemctl enable OoklaServer.service
 systemctl start OoklaServer.service
 sleep 5
-echo "SERVIDOR SPEEDTEST FUNCIONAL"
+echo "
+################################
+
+SERVIDOR SPEEDTEST FUNCIONAL
+Instalador creado por Oscar Castillo
+Consultor de Telecomunicaciones
+Contacto: (+57) 3007081170
+
+################################"
