@@ -18,7 +18,7 @@ sudo ./ooklaserver.sh install
 #Agregamos el iniciador automatico
 cd /etc/systemd/system
 wget https://raw.githubusercontent.com/viejojavi/ooklaserver/main/OoklaServer.service
-sudo systemctl enable OoklaServer.service
-sudo systemctl start OoklaServer.service
+systemctl enable OoklaServer.service
+systemctl start OoklaServer.service
 sleep 5
 echo "SERVIDOR SPEEDTEST FUNCIONAL"
