@@ -1,0 +1,10 @@
+[Unit] 
+ Description=OoklaServer start  
+ After=network.target
+  
+ [Service] 
+ User=root 
+ ExecStart=/home/ticcol/OoklaServer 
+  
+ [Install] 
+ WantedBy=multi-user.target
