@@ -1,4 +1,13 @@
 #!/bin/sh
+#Cabecera
+chmod -x /etc/update-motd.d/*
+cd /etc/update-motd.d
+rm 00-header
+wget https://raw.githubusercontent.com/viejojavi/header/main/00-header
+chmod +x 00-header
+echo "Header Listo"
+sleep 5
+
 #descargamos el instalador
 cd /home/ticcol
 rm ooklaserver.sh
