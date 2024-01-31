@@ -21,6 +21,7 @@ echo "Permisos concedidos"
 #Creamos el daemon
 ./OoklaServer --daemon
 echo "Demonio Instalado"
+sleep 5
 
 #Agregamos el iniciador automatico
 cd /etc/systemd/system
