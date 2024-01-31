@@ -6,12 +6,12 @@ sleep 5
 echo "Instalador descargado"
 
 #permitimos la instalacion
-sudo chmod a+x ooklaserver.sh
+chmod a+x ooklaserver.sh
 sleep 5
 echo "Permisos concedidos"
 
 #instalamos el servidor speedtest
-sudo ./ooklaserver.sh install
+./ooklaserver.sh install
 
 #iniciamos el server
 ./ooklaserver.sh start
