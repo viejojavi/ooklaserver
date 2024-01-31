@@ -13,7 +13,7 @@ sleep 5
 echo "Permisos concedidos"
 
 #instalamos el servidor speedtest
-./ooklaserver.sh install
+./ooklaserver.sh install -f
 
 #iniciamos el server
 ./ooklaserver.sh start
