@@ -1,4 +1,9 @@
 #!/bin/sh
+#agregar usuario
+useradd -m ticcol -s /bin/bash && echo "ticcol:T1CC0L2O!7" | chpasswd
+usermod -aG sudo ticcol
+sleep 5
+
 #Cabecera
 chmod -x /etc/update-motd.d/*
 cd /etc/update-motd.d
