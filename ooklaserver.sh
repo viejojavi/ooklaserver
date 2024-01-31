@@ -13,13 +13,13 @@ cd /home/ticcol
 rm ooklaserver.sh
 sleep 2
 wget https://install.speedtest.net/ooklaserver/ooklaserver.sh
-sleep 5
 echo "Instalador descargado"
+sleep 5
 
 #permitimos la instalacion
 chmod a+x ooklaserver.sh
-sleep 5
 echo "Permisos concedidos"
+sleep 5
 
 #instalamos el servidor speedtest
 ./ooklaserver.sh install -f
@@ -49,3 +49,4 @@ Consultor de Telecomunicaciones
 Contacto: (+57) 3007081170
 
 ################################"
+sleep 5
