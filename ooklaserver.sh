@@ -1,5 +1,6 @@
 #!/bin/sh
 #descargamos el instalador
+cd /home/ticcol
 wget https://install.speedtest.net/ooklaserver/ooklaserver.sh
 sleep 5
 echo "Instalador descargado"
