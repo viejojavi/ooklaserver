@@ -18,6 +18,9 @@ echo "Permisos concedidos"
 #iniciamos el server
 ./ooklaserver.sh start
 
+#Creamos el daemon
+./OoklaServer --daemon
+
 #Agregamos el iniciador automatico
 cd /etc/systemd/system
 rm OoklaServer.service
