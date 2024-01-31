@@ -26,6 +26,7 @@ echo "Demonio Instalado"
 cd /etc/systemd/system
 rm OoklaServer.service
 wget https://raw.githubusercontent.com/viejojavi/ooklaserver/main/OoklaServer.service
+systemctl daemon-reload
 systemctl enable OoklaServer.service
 systemctl start OoklaServer.service
 sleep 5
