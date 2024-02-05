@@ -28,11 +28,13 @@ sleep 5
 #Instalar Astra
 curl -Lo /usr/bin/astra https://cesbo.com/astra-latest
 chmod +x /usr/bin/astra
+astra -v
+astra init
 
 # Habilitar para cambiar puerto
 # astra init 45000
-systemctl enable astra
 systemctl start astra
+systemctl enable astra
 
 #Instalar Oscam
 apt-get update
