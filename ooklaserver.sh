@@ -49,6 +49,7 @@ systemctl daemon-reload
 systemctl enable OoklaServer.service
 systemctl start OoklaServer.service
 sleep 5
+./ooklaserver.sh restart
 echo "
 ################################
 
