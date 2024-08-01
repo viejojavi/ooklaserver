@@ -29,6 +29,10 @@ sleep 5
 #instalamos el servidor speedtest
 ./ooklaserver.sh install -f
 
+#Configuramos el OoklaServer.properties
+rm OoklaServer.properties
+wget https://raw.githubusercontent.com/viejojavi/ooklaserver/main/OoklaServer.properties
+
 #iniciamos el server
 ./ooklaserver.sh start
 
